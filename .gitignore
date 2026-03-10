@@ -1,0 +1,12 @@
+# Vagrant
+.vagrant/
+*.log
+*.tmp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de backup
+*~
+*.swp
