@@ -79,9 +79,6 @@ jar -cvf mywebapp.war -C mywebapp/ .
 sudo cp mywebapp.war /var/lib/tomcat9/webapps/
 
 ## 9. Contenu du script deploy.sh
-#!/bin/bash
-
-# Script de gestion du serveur Tomcat
 TOMCAT_SERVICE="tomcat9"
 TOMCAT_WEBAPPS="/var/lib/tomcat9/webapps"
 MYWEBAPP_PATH="/home/vagrant/mywebapp"
